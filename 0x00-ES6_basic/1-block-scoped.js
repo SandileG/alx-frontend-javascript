@@ -3,7 +3,7 @@ export default function taskBlock(trueOrFalse) {
   const task2 = true;
 
   if (trueOrFalse) {
-    return [true, false];
+    // No reassignment or redeclaration within the block
   }
 
   return [task, task2];
