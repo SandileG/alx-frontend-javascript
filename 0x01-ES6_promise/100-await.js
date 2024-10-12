@@ -5,7 +5,7 @@ export default async function asyncUploadUser() {
   try {
     // Await both promises concurrently
     const [photo, user] = await Promise.all([uploadPhoto(), createUser()]);
-    
+ 
     // Return the result object
     return {
       photo,
